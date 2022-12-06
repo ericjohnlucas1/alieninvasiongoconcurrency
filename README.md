@@ -2,9 +2,9 @@
 
 ## Usage:
 
--	The usage is as follows: go run main.go <number_of_aliens>
--	The “main.go” file containing my implementation expects a file called “cities.txt” to be in the same directory it is run from. If no such file exists it will exit with an error. A sample “cities.txt” is provided
--	At the top of the “main.go”, there is one integer variable for configuration: “maxmoves” the maximum number of moves, defaulted to 10,000
+-	The usage is as follows: `go run main.go <number_of_aliens>`
+-	The `main.go` file containing my implementation expects a file called `cities.txt` to be in the same directory it is run from. If no such file exists it will exit with an error. A sample `cities.txt` is provided
+-	At the top of the `main.go`, there is one integer variable for configuration: `maxmoves` the maximum number of moves, defaulted to 10,000
 
 ## Implementation:
 
