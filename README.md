@@ -1,12 +1,14 @@
 # Alien Invasion Simulation
 
+This repository contains my solution to the Alien Invasion simulation task detailed in this repository in `Alien Invasion.pdf`.
+
 ## Usage:
 
 - The usage is as follows: `go run main.go <number_of_aliens>`
 - The `main.go` file containing my implementation expects a file called `cities.txt` to be in the same directory it is run from. If no such file exists it will exit with an error. A sample `cities.txt` is provided
 - At the top of the `main.go`, there is one integer variable for configuration: `maxmoves` the maximum number of moves, defaulted to 10,000
 
-## Implementation:
+## Implementation Details:
 
 - An `undirected graph` is the data structure used to represent the map of cities. The `adjacency list` for the graph is represented using the map data type in Golang, with each city being mapped to set of all the cities there is a path to. This adjacency list is modified accordingly when a city is destroyed
 - Aliens are unleashed by spawning `goroutines`, which repeat the procedure of roaming around the map until they encounter other aliens and die or reach the maximum number of moves allows
